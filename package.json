@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/Bobby-Lishez/clicky_game"
+  "homepage": "https://bobby-lishez.github.io/clicky_game/"
 }
