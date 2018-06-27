@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from "./Components/Nav";
-import Header from "./Components/Header";
 import Game from "./Components/Game";
 import Footer from "./Components/Footer"
 import cards from "./Components/Game/cards.json";
