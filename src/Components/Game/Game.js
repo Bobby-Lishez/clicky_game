@@ -46,7 +46,8 @@ class Game extends Component {
                     score: 0,
                     data: cards,
                     unClicked: cards,
-                    round: this.state.round + 1
+                    round: this.state.round + 1,
+                    topScore: this.state.topScore + 12
                 })
             } else{
             
