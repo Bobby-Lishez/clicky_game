@@ -30,7 +30,7 @@ class Game extends Component {
         if(findCard === undefined) {
             this.setState({ 
                 message: "You chose... poorly",
-                topScore: (this.state.score > this.state.topScore) ? this.state.score : this.state.topScore,
+                topScore: (this.state.score + (12 * (this.state.round - 1)) > this.state.topScore) ? this.state.score : this.state.topScore,
                 score: 0,
                 data: cards,
                 unClicked: cards,
@@ -40,6 +40,7 @@ class Game extends Component {
         else {
             const newCards = this.state.unClicked.filter(item => item.id !== id);
             const newScore = this.state.score + 1;
+            const newTopScore = this.state.topScore + 12;
             if (newScore%12 === 0){
                 this.setState({
                     message: 'Congratulations! You completed a round!',
@@ -47,7 +48,7 @@ class Game extends Component {
                     data: cards,
                     unClicked: cards,
                     round: this.state.round + 1,
-                    topScore: this.state.topScore + 12
+                    topScore: newTopScore
                 })
             } else{
             
