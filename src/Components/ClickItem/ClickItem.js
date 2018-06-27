@@ -6,9 +6,9 @@ const ClickItem = (props) => (
         role = 'img'
         aria-label = 'click item'
         id = {props.id}
-        onClick = {() => props.handleClick(props.id)}
+        onClick = {() => props.handleClick(props.indexNumber)}
         style = {{backgroundImage: `url("${props.image}")`}}
-        className = {`click-item${props.shake ? "shake" : ""}`}
+        className = {`click-item click-item${props.shake ? "shake" : ""}`}
     >
     {props.children}
     </div>

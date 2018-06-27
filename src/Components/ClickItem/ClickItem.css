@@ -1,83 +1,67 @@
-#item-1 {
-    background: red;
+.click-item {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgray;
     height: 150px;
     width: 150px;
     margin-bottom: 20px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+.click-item:hover{
+    border-width: 7px;
+    border-color: gold;
+}
+
+#item-1 {
+    background: red;
 }
 
 #item-2 {
     background: orange;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
 }
 
 #item-3 {
     background: yellow;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px; 
 }
 
 #item-4 {
     background: green;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    color: white;
 }
 
 #item-5 {
-    background: blue;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    background: lightblue;
 }
 
 #item-6 {
-    background: indigo;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    background: darkblue;
+    color: white;
 }
 
 #item-7 {
     background: purple;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    color: white;
 }
 
 #item-8 {
     background: brown;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    color: white;
 }
 
 #item-9 {
     background: black;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    color: white;
 }
 
 #item-10 {
     background: gray;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
 }
 
 #item-11 {
-    background: grey;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    background: magenta;
 }
 
 #item-12 {
-    background: turquoise;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px;
+    background: pink;
 }
